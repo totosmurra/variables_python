@@ -38,3 +38,10 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+nmc = input()
+
+print (str.lower(nmc))
+print (str.upper(nmc))
+print (str.capitalize(nmc))
+
