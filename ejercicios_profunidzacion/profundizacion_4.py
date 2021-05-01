@@ -46,3 +46,19 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Comencemos a ponernos serios')
 # Empezar aquí la resolución del ejercicio
+
+print ("Nombre Persona 1:")
+prsn1 = input()
+
+print ("Nombre Persona 2:")
+prsn2 = input()
+
+prsn1a = prsn1.split(" ") [1]
+
+prsn2a = prsn2.split(" ") [1]
+
+if prsn1a == prsn2a
+  print ("Persona 1 y Persona 2 son parientes")
+
+elif prsn1a != prsn2a
+  print ("Persona 1 y Persona 2 no son parientes")
