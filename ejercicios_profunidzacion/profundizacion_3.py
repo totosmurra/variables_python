@@ -45,3 +45,19 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+
+print ("Cual es el nombre y apellido de tu padre?")
+pdr1 = input()
+
+print ("Cual es el nombre y apellido de tu madre?")
+pdr2 = input()
+
+print ("Cual es tu nombre?")
+nmbr = input()
+
+pdr1a = pdr1.split(" ")[1]
+
+pdr2a = pdr2.split(" ")[1]
+
+print (nmbr, pdr1a, pdr2a)
