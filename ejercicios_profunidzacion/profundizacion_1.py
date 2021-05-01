@@ -31,3 +31,35 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+print("primer numero =")
+nmr1 = int(input())
+
+print("segundo numero =")
+nmr2 = int(input())
+
+print ("si queres sumar escribi 1")
+print ("si queres restar escribi 2")
+print ("si queres multiplicar escribi 3")
+print ("si queres dividir escribi 4")
+print ("si queres potenciar escribi 5")
+
+
+operacion = int(input())
+
+
+if operacion == 1
+  print (nmr1 + nmr2)
+
+elif operacion == 2
+  print (nmr1 - nmr2)
+
+elif operacion == 3
+  print (nmr1 * nmr2)
+
+elif operacion == 4
+  print (nmr1 / nmr2)
+
+elif operacion == 5
+  print (nmr1 ** nmr2)
+
