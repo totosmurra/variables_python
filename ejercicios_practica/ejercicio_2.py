@@ -33,3 +33,17 @@ numero_2 = int(input())
 # División
 
 # Multiplicación
+
+
+print (numero_1)
+print (numero_2)
+
+suma = numero_1 + numero_2
+resta = numero_1 - numero_2
+multiplicación = numero_1 * numero_2
+division = numero_1 / numero_2
+
+print ("Ambos numeros sumados equivale a: ", (suma))
+print ("Ambos numeros restados equivale a: ", (resta))
+print ("Ambos numeros multiplicados equivale a: ", (multiplicación))
+print ("Ambos numeros divididos equivale a: ", (division))
