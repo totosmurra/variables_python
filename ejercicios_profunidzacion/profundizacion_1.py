@@ -48,18 +48,18 @@ print ("si queres potenciar escribi 5")
 operacion = int(input())
 
 
-if operacion == 1
+if operacion == 1:
   print (nmr1 + nmr2)
 
-elif operacion == 2
+elif operacion == 2:
   print (nmr1 - nmr2)
 
-elif operacion == 3
+elif operacion == 3:
   print (nmr1 * nmr2)
 
-elif operacion == 4
+elif operacion == 4:
   print (nmr1 / nmr2)
 
-elif operacion == 5
+elif operacion == 5:
   print (nmr1 ** nmr2)
 

@@ -57,8 +57,8 @@ prsn1a = prsn1.split(" ") [1]
 
 prsn2a = prsn2.split(" ") [1]
 
-if prsn1a == prsn2a
+if prsn1a == prsn2a:
   print ("Persona 1 y Persona 2 son parientes")
 
-elif prsn1a != prsn2a
+elif prsn1a != prsn2a:
   print ("Persona 1 y Persona 2 no son parientes")
